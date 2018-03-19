@@ -7,3 +7,6 @@
 ### Restoring a databse to a Docker container
 
 `cat backup.sql | docker exec -i CONTAINER-NAME mysql -u root --password=PASSWORD DATABASE-NAME`
+
+### Access a docker container's files
+`docker exec -it CONTAINER_ID bash`
