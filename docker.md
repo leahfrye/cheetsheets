@@ -10,3 +10,7 @@
 
 ### Access a docker container's files
 `docker exec -it CONTAINER_ID bash`
+
+### Run docker-compose, but using a specific docker-compose file
+`docker-compose -f DOCKER_COMPOSE_FILE_NAME up`
+Can also be build, run, down, etc.
