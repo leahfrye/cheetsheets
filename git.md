@@ -4,3 +4,10 @@
 ```
 git checkout -- .
 ```
+
+Or
+
+```
+git stash
+git stash drop
+```
